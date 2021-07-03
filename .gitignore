@@ -1,23 +1,58 @@
-# Compiled class file
-*.class
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Log file
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### CUSTOM ###
+# files
 *.log
+application-dev-*.properties
+application-dev-*.yml
+application-local-icovn.yml
+application-prod-*.properties
+application-prod-*.yml
+client_secret.json
+credentials.json
+dependency-reduced-pom.xml
+firebase-adminsdk-*.json
+nb-configuration.xml
+nbactions.xml
+pom.xml.releaseBackup
+release.properties
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# directories
+/crdentials
+/out/
+/tokens
+**/.mvn/**
+**/logs/**
+**/target/**

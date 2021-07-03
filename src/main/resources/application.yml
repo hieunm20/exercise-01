@@ -1,0 +1,26 @@
+application:
+  host: 172.0.0.1
+  port: 8080
+
+  queue:
+    even:
+      even-listener: "queue_even_listener"
+logging:
+  level:
+    ROOT: INFO
+
+spring:
+  rabbitmq:
+    host: 172.16.7.238
+    username: guest
+    password: guest
+    concurrent-consumers: 5
+    max-concurrent-consumers: 30
+
+  ## REDIS -----------------------------------------------------------------------------------------
+  redis:
+    host: 172.16.7.238
+    port: 31353
+  
+elasticsearch:
+  host-and-port: "172.16.7.238:32537"
