@@ -16,11 +16,6 @@ spring:
     password: guest
     concurrent-consumers: 5
     max-concurrent-consumers: 30
-
-  ## REDIS -----------------------------------------------------------------------------------------
-  redis:
-    host: 172.16.7.238
-    port: 31353
   
 elasticsearch:
   host-and-port: "172.16.7.238:32537"
